@@ -16,6 +16,6 @@ class UnitTests(unittest.TestCase) :
         inputs, variables = [], []
         for i in range(1,5) :
             inputs.append((i*10,))
-            myvar = randomvar( 0.5, variance=1/12/(i*10), vmin=0, vmax=1, isinteger=False )
+            myvar = randomvar( 0.5, variance=1/12/(i*10), vmin=0, vmax=1, isinteger=False, nsamples=100 )
             variables.append( myvar )
         assert( check_func('average',inputs, variables ) )
