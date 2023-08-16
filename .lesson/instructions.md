@@ -2,9 +2,7 @@
 
 We can calculate the sample mean from a set of random variables using the expression below:
 
-$$
-\overline{X}=\frac{1}{n}\sum_{i=1}^{n}X_i
-$$
+![](equation.png)
 
 It is worth considering what happens if each of the Xi in the sum on the right-hand side of the expression is a random variable from one of the distributions that we learned about last week.  Obviously, as all the Xi are random, it 
 stands to reason that the quantity on the left-hand side is also a random variable.  We thus would like to know something about how the statistic on the left-hand side is distributed.
